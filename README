@@ -1,0 +1,107 @@
+- An introduction for VisionTux -
+https://github.com/VisionTux/visiontux
+
+Last update: October 05, 2026
+ 
+DESCRIPTION
+-----------
+  SuperTux is a jump'n run like game, with strong inspiration from the
+  Super Mario Bros games for Nintendo.
+
+  Run and jump through multiple worlds, fighting off enemies by jumping
+  on them or bumping them from below.  Grabbing power-ups and other stuff
+  on the way.
+
+  VisionTux is a SuperTux fangame made using HaxeFlixel. It's meant to go
+  back to the beginning of Milestone 2 with new concepts and ideas eventually,
+  although it's first release will be based on SuperTux Milestone 1 with some 
+  sprites from Milestone 2.
+
+
+STORY
+-----
+- Penny gets captured! -
+
+  Tux and Penny were out having a nice
+  picnic on the ice fields of Antarctica.
+  Suddenly, a creature jumped from
+  behind an ice bush, there was a flash,
+  and Tux fell asleep!
+
+  When Tux wakes up, he finds that Penny
+  is missing. Where she lay before now
+  lies a letter. "Tux, my arch enemy!"
+  says the letter. "I have captured
+  your beautiful Penny and have taken her
+  to my fortress. The path to my fortress
+  is littered with my minions. Give up on
+  the thought of trying to reclaim her,
+  you haven't a chance! -Nolok"
+
+  Tux looks and see Nolok's fortress in
+  the distance. Determined to save his
+  beloved Penny, he begins his journey.
+
+
+DOCUMENTATION
+-------------
+  Important documentation for SuperTux is contained in multiple files.
+  Please see them:
+
+    AUTHORS     - Credits for people that contributed to the creation
+                  of VisionTux and SuperTux.
+    NEWS        - Changes since the previous versions of "VisionTux",
+                  also includes changes since the version of SuperTux
+                  that this is based on, v0.1.3.
+    COPYING     - The GNU General Public License, which "VisionTux" is 
+                  licensed under.
+    INSTALL     - Instructions on requirements and compiling.
+    README      - (This file.)  Game story, usage, rules and controls.
+    TODO        - A wish-list for this version of "VisionTux"
+    LEVELDESIGN - Very useful information for those that want to design
+                  levels for VisionTux.
+
+RUNNING THE GAME
+----------------
+  Options can be reached from the menu, so you don't need to specify arguments.
+  Also, notice that VisionTux saves the options, so you don't need to be always
+  specifying them.
+
+  In the Project.xml, you could specifiy where you want hardware or software
+  rendering if you really want, but you'll need to compile the game. Check the
+  INSTALL file.
+
+
+PLAYING THE GAME
+----------------
+  Controls
+  --------
+  Only keyboards are supported. You can change the controls via the Options 
+  menu. Basically, the only keys you will need to use in-game are to do the 
+  following actions: jump, duck, right, left, power and 'P' to pause/unpause 
+  the game. I don't think there is anything to explain about the others, but
+  the power key, also called run, allow you to run and use the power of the 
+  powerup you got. For instance, with the fire flower, you can shoot bullets 
+  (note that this is the only power currently implemented).
+  
+  Other useful keys include the escape key, which is used to go to the menu 
+  or to go up a level in the menu. The menu can be navigated using the arrow
+  keys or the mouse.
+
+  In the worldmap, the arrow keys are used to navigate and Enter enters the
+  current level.
+
+SCREEN LAYOUT
+-------------
+  Status
+  ------
+    The number of coins you have collected is displayed at the upper right.
+    Note that it's the only one implemented. This is intentional. Score has
+    been removed due to being unnecessary, same with time and lives.
+
+THE END
+-------
+  Thanks for trying out VisionTux.
+
+  
+  The VisionTux development team
